@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language code="fr" name="Anglais">
+  <MovingAveragePrice>
+    <Recalculate Text="Mouvement. moy. prix">
+      <Title Text="Prix ​​moyen mobile"/>
+      <Info Text="Sélectionnez les produits ou groupes de produits pour lesquels vous souhaitez recalculer le prix moyen mobile. Le prix moyen mobile sera calculé et mettra à jour tous les documents au cours de la période sélectionnée.\nCette opération peut prendre un certain temps, en fonction du nombre de produits et de la période sélectionnée."/>
+      <Selection>
+        <ProductGroups Text="Groupes de produits"/>
+        <Products Text="Produits"/>
+        <NoItems Text="Aucun produit sélectionné"/>
+      </Selection>
+      <SelectedPeriod Text="Période sélectionnée"/>
+      <PeriodStart Text="Début des règles"/>
+      <PeriodEnd Text="Fin de période"/>
+      <Start Text="Commencer"/>
+      <Stop Text="Arrêt"/>
+      <Product Text="Produit : {0}"/>
+      <OverallProgress Text="Progrès global"/>
+      <Complete Text="Prix ​​moyen mobile recalculé avec succès."/>
+      <Disabled Text="Le prix moyen mobile est désactivé. Activez le prix moyen mobile pour commencer à suivre automatiquement les prix de revient.">
+        <Enable Text="Cliquez ici pour activer le prix moyen mobile"/>
+      </Disabled>
+      <PriceChangeOption Text="Que faut-il mettre à jour lorsque le prix de revient est modifié ?">
+        <Markup Text="Balisage"/>
+        <SalePrice Text="Prix ​​de vente"/>
+      </PriceChangeOption>
+    </Recalculate>
+    <Settings>
+      <Title Text="Prix ​​moyen mobile"/>
+      <Enabled Text="Activer le prix moyen mobile"/>
+    </Settings>
+    <SalePriceChanged Text="Les prix de vente ont changé">
+      <Message Text="Les prix de vente des produits achetés sont modifiés ! Veuillez vérifier si les nouveaux prix sont corrects."/>
+    </SalePriceChanged>
+  </MovingAveragePrice>
+</Language>

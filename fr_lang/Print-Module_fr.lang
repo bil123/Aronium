@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language code="fr" name="Anglais">
+  <Print>
+    <Labels>
+      <Documents>
+        <InventoryCount Text="Inventaire">
+          <Counted Text="Dénombré"/>
+          <CountedValue Text="Valeur comptée"/>
+          <CreatedBy Text="Créé par"/>
+          <DiffMinus Text="Différent -"/>
+          <DiffPlus Text="Diff +"/>
+          <Expected Text="Attendu"/>
+          <Time Text="Temps"/>
+          <NegativeAmount Text="Montant -"/>
+          <PositiveAmount Text="Montant +"/>
+        </InventoryCount>
+        <Invoice Text="Facture">
+          <AmountDue Text="Montant dû"/>
+          <BankAccountNumber Text="Numéro d'identification de la banque"/>
+          <BankDetails Text="RIB"/>
+          <BillTo Text="Facturer à"/>
+          <InvoiceNumber Text="Facture N°"/>
+          <Item Text="Article"/>
+          <ItemsCount Text="Nombre d'articles"/>
+          <PaidAmount Text="Montant payé"/>
+          <PaymentMethod Text="Mode de paiement"/>
+          <PaymentStatus Text="Statut de paiement">
+            <Paid Text="Payé"/>
+            <Unpaid Text="Non rémunéré"/>
+          </PaymentStatus>
+          <OutstandingBalance Text="Solde impayé"/>
+        </Invoice>
+        <LossAndDamage Text="Pertes et dommages"/>
+        <ProformaInvoice Text="Proforma"/>
+        <Purchase Text="Entrée de marchandises"/>
+        <Refund Text="Remboursement">
+          <ReceiptNumber Text="Numéro de reçu"/>
+          <RefundNumber Text="Numéro de remboursement."/>
+        </Refund>
+        <StockReturn Text="Retour de marchandises"/>
+        <CreditPayments>
+          <PaymentReceipt Text="Reçu de paiement"/>
+          <PaymentDetails Text="Détails du paiement">
+            <OriginalAmountDue Text="Montant initial dû"/>
+            <Remaining Text="Restant"/>
+          </PaymentDetails>
+          <TotalAmountPaid Text="Montant total payé"/>
+        </CreditPayments>
+      </Documents>
+      <General>
+        <BusinessPartner Text="Partenaire commercial"/>
+        <CashRegister Text="Caisse"/>
+        <Code Text="Code"/>
+        <Company Text="Entreprise">
+          <Address Text="Adresse"/>
+        </Company>
+        <Cost Text="Coût"/>
+        <Customer Text="Client"/>
+        <Date Text="Date"/>
+        <DateCreated Text="Date de création"/>
+        <Description Text="Description"/>
+        <Discount Text="Discount"/>
+        <DiscountGranted Text="Remise accordée"/>
+        <Document Text="Document"/>
+        <DocumentNumber Text="Numéro du document"/>
+        <DueDate Text="Date d'échéance"/>
+        <Email Text="E-mail"/>
+        <ExternalDocument Text="Document externe"/>
+        <ReferenceNumber Text="Réf. nombre"/>
+        <Margin Text="Marge"/>
+        <Name Text="Nom"/>
+        <Numbering Text="#"/>
+        <Page Text="Page"/>
+        <Period Text="Période"/>
+        <Phone Text="Téléphone"/>
+        <Product Text="Produit"/>
+        <ProductGroup Text="Groupe de produits"/>
+        <ProductName Text="Nom du produit"/>
+        <Products Text="Produits"/>
+        <Profit Text="Profit"/>
+        <PurchaseNumber Text="Numéro d'achat"/>
+        <TaxNumber Text="Numéro de taxe"/>
+        <Qty Text="Qté."/>
+        <Quantity Text="Quantité"/>
+        <Subtotal Text="Total"/>
+        <Supplier Text="Fournisseur"/>
+        <Tax Text="Impôt"/>
+        <TaxName Text="Nom de la taxe"/>
+        <TotalTax Text="Taxe totale"/>
+        <Total Text="Total"/>
+        <TotalAfterDiscount Text="Total après disque."/>
+        <TotalBeforeDiscount Text="Total avant disque."/>
+        <TotalBeforeTax Text="Total avant taxes"/>
+        <TotalDiscount Text="Remise totale"/>
+        <TotalPaid Text="Total payé"/>
+        <TotalUnpaid Text="Total impayé"/>
+        <UnitOfMeasurement Text="UdM"/>
+        <UnitPrice Text="Prix ​​unitaire"/>
+        <User Text="Utilisateur"/>
+        <Rounding Text="Arrondi"/>
+      </General>
+      <Reports>
+        <DailySales Text="Ventes quotidiennes"/>
+        <DiscountsGranted Text="Remises accordées">
+          <BeforeTax Text="(avant taxes)"/>
+          <AfterTax Text="(après taxes)"/>
+          <NumberOfDiscounts Text="Nombre de commandes remises"/>
+          <TotalDiscounted Text="Total réduit"/>
+        </DiscountsGranted>
+        <InventoryCount Text="Rapport d'inventaire"/>
+        <Invoices Text="Factures"/>
+        <ItemsDiscounts Text="Remises sur les articles"/>
+        <LossAndDamageByProduct Text="Pertes et dommages par produit"/>
+        <PaymentTypesByCustomer Text="Types de paiement par clients"/>
+        <PaymentTypesByUser Text="Types de paiement par utilisateurs"/>
+        <ProfitAndMargin Text="Profit"/>
+        <PurcahsedItemsDiscounts Text="Remises sur les articles achetés"/>
+        <PurchaseByProduct Text="Achat par produit"/>
+        <PurchaseBySupplier Text="Achat par fournisseur"/>
+        <PurchaseDiscounts Text="Remises d'achat"/>
+        <PurchaseInvoices Text="Factures d'achat"/>
+        <PurchaseTax Text="Taxe d'achat"/>
+        <Refunds Text="Remboursements"/>
+        <SalesByCustomer Text="Ventes par client"/>
+        <SalesByPaymentType Text="Ventes par types de paiement"/>
+        <SalesByProduct Text="Ventes par produit"/>
+        <SalesByProductGroups Text="Ventes par groupes de produits"/>
+        <SalesByUser Text="Ventes par les utilisateurs"/>
+        <StartingCashEntries Text="Début des entrées de caisse">
+          <ZReport Text="Rapport Z"/>
+          <Open Text="Ouvrir"/>
+        </StartingCashEntries>
+        <Stock Text="Rapport de stock">
+          <CostPrice Text="Prix ​​de revient"/>
+          <CostBeforeTax Text="Coût avant. impôt"/>
+          <CostIncludingTax Text="Coût inclus impôt"/>
+          <History Text="Historique des stocks">
+            <CustomerOrSupplier Text="Client / Fournisseur"/>
+            <DocumentNumber Text="Doc. numéro"/>
+            <DocumentType Text="Type doc."/>
+            <QuantityOnHand Text="Qté disponible"/>
+            <StockDate Text="Date stock"/>
+            <CostPrice Text="Prix de revient"/>
+          </History>
+        </Stock>
+        <StockMovement Text="Le mouvement de stock">
+          <AverageNumberOfSalesPerItem Text="Nombre moyen de ventes par article"/>
+          <FastMoving Text="rapide"/>
+          <SlowMoving Text="Mouvement lent"/>
+          <NonMoving Text="Non mobile"/>
+          <NumberOfSales Text="Nombre. des ventes"/>
+          <TotalNumberOfSales Text="Nombre total de ventes"/>
+        </StockMovement>
+        <SalesTax Text="Taxes de vente"/>
+        <UnpaidPurchases Text="Achat impayé"/>
+        <UnpaidSales Text="Ventes non payées"/>
+        <HourlySales Text="Ventes horaires">
+          <Hours Text="Heures"/>
+          <TotalSales Text="Total des ventes"/>
+          <SalesCount Text="Nombre des ventes"/>
+          <AverageSale Text="Vente moyenne"/>
+          <Chart>
+            <Total Text="Total des ventes"/>
+            <Count Text="Nombre de ventes"/>
+          </Chart>
+        </HourlySales>
+        <HourlySalesByGroups Text="Ventes horaires par groupes de produits"/>
+        <SalesByOrderNumber Text="Ventes par table /numéro de commande">
+          <OrderNumber Text="N ° de table / commande"/>
+          <SalesCount Text="Nombre de ventes"/>
+        </SalesByOrderNumber>
+        <VoidedItems Text="Articles annulés">
+          <ByUser Text="Éléments annulés par l'utilisateur"/>
+          <Price Text="Prix"/>
+          <Status Text="Statut">
+            <Unconfirmed Text="Non confirmé"/>
+            <Confirmed Text="Confirmé"/>
+          </Status>
+          <VoidedBy Text="Annulé par"/>
+          <OrderNumber Text="Commande #"/>
+          <DateCreated Text="Créé"/>
+          <DateVoided Text="Annulé"/>
+          <Reason Text="Raison"/>
+        </VoidedItems>
+        <SalesItemList Text="Liste des articles en vente">
+          <DocumentType Text="Type de document"/>
+          <CustomerCode Text="Code client"/>
+          <OrderNumber Text="Numéro de commande"/>
+        </SalesItemList>
+        <StockReturnsByProduct Text="Retours de stock par produit"/>
+        <Finance>
+          <TransactionHistory Text="Historique des transactions">
+            <TransactionType Text="Type d'opération"/>
+            <PaymentReceived Text="Paiement reçu"/>
+            <PaymentSent Text="Paiement au fournisseur"/>
+            <Debit Text="Débit"/>
+            <Credit Text="Crédit"/>
+            <Balance Text="Équilibre"/>
+          </TransactionHistory>
+        </Finance>
+      </Reports>
+    </Labels>
+  </Print>
+</Language>

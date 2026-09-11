@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language name="Anglais" code="fr">
+  <ReceiptPrinter Text="Imprimante de reçus">
+    <PrintReceipt Text="Imprimer un reçu"/>
+    <Receipt>
+      <PrinterNotFound Text="L'imprimante ticket n'est pas sélectionnée ou désactivée. Vérifiez les paramètres de l'imprimante et réessayez."/>
+      <PaymentTypes>
+        <PrintDisabled Text="L'impression du reçu est désactivée pour les types de paiement sélectionnés.\nVeuillez activer l'impression des reçus pour les types de paiement sélectionnés avant d'imprimer un reçu."/>
+      </PaymentTypes>
+      <Company>
+        <TaxNumber Text="Numéro de taxe"/>
+      </Company>
+      <Customer Text="Client">
+        <Address Text="Adresse"/>
+        <TaxNumber Text="Numéro de taxe"/>
+        <Code Text="Code"/>
+        <PhoneNumber Text="Téléphone"/>
+        <Email Text="E-mail"/>
+      </Customer>
+      <Number Text="Numéro de reçu"/>
+      <RefundNumber Text="Numéro de remboursement."/>
+      <OrderNumber Text="Numéro de commande"/>
+      <ItemsCount Text="Nombre d'articles"/>
+      <Subtotal Text="Total"/>
+      <Tax Text="Impôt"/>
+      <Discount Text="Remise sur le panier"/>
+      <Total Text="TOTAL"/>
+      <PaidAmount Text="Montant payé"/>
+      <AmountDue Text="Montant dû"/>
+      <DueDate Text="Date d'échéance"/>
+      <User Text="Utilisateur"/>
+      <Change Text="Changement"/>
+      <TotalSavings Text="Vous avez enregistré"/>
+      <OutstandingBalance Text="Solde impayé"/>
+      <Rounding Text="Arrondi"/>
+      <Customize Text="Personnaliser le reçu">
+        <UseSystemCurrency Text="Utiliser le format de devise du système">
+          <Info Text="Votre symbole monétaire est défini sur « {0} ». Utilisez le Panneau de configuration de Windows pour modifier le symbole monétaire.">
+            <OpenRegionalSettings Text="Ouvrir les paramètres régionaux"/>
+          </Info>
+        </UseSystemCurrency>
+        <NumberOfDecimalPlaces Text="Décimales"/>
+        <PrintTaxes Text="Imprimer les totaux des taxes"/>
+        <LineItemsSummary Text="Imprimer le récapitulatif des éléments de campagne">
+          <None Text="Aucun"/>
+          <ItemsCount Text="Nombre d'articles"/>
+          <TotalQuantity Text="Quantité totale"/>
+        </LineItemsSummary>
+        <PrintMeasurementUnit Text="Unité de mesure d'impression"/>
+        <PrintOrderNumber Text="Numéro de commande d'impression"/>
+        <PrintOutstandingBalance Text="Imprimer le solde impayé"/>
+        <ShortReceiptNumber Text="Numéro de reçu court"/>
+        <PrintTaxName Text="Imprimer le nom de la taxe"/>
+        <Counter Text="Compteur de réception">
+          <Edit Text="Cliquez pour modifier le compteur du numéro de reçu"/>
+        </Counter>
+        <Localize Text="Localiser le texte du reçu">
+          <Info Text="Utilisez ce formulaire pour traduire ou modifier les étiquettes imprimées sur les reçus."/>
+          <UseInReportsAndInvoices Text="Utiliser des étiquettes personnalisées dans les rapports et les factures">
+            <RestartRequired Text="Le redémarrage est requis avant que les modifications apportées à cette option prennent effet"/>
+          </UseInReportsAndInvoices>
+          <Company>
+            <TaxNumber Text="Numéro fiscal de l'entreprise"/>
+          </Company>
+          <CustomerDetails Text="Détails du client">
+            <Info Text="Choisissez la façon dont les détails du client sont imprimés sur le reçu. Si vous ne souhaitez pas imprimer d'étiquette sur le reçu, décochez l'option ci-dessous.\nCette section concerne uniquement les étiquettes, et non les détails réels du client imprimés sur le reçu."/>
+          </CustomerDetails>
+          <Customer Text="Client">
+            <Address Text="Adresse"/>
+            <TaxNumber Text="Numéro fiscal"/>
+            <Code Text="Code"/>
+            <PhoneNumber Text="Numéro de téléphone"/>
+            <Email Text="E-mail"/>
+          </Customer>
+          <ReceiptNumber Text="Numéro de reçu"/>
+          <RefundNumber Text="Numéro de remboursement"/>
+          <OrderNumber Text="Numéro de commande"/>
+          <ItemsCount Text="Nombre d'articles"/>
+          <Discount Text="Rabais"/>
+          <Subtotal Text="Total"/>
+          <Tax Text="Taux d'imposition"/>
+          <Total Text="Total"/>
+          <PaidAmount Text="Montant payé"/>
+          <AmountDue Text="Montant dû"/>
+          <DueDate Text="Date d'échéance"/>
+          <User Text="Utilisateur"/>
+          <Change Text="Changement"/>
+          <TotalSavings Text="Économies totales"/>
+          <OutstandingBalance Text="Solde impayé"/>
+        </Localize>
+        <CustomerDetails Text="Détails du client">
+          <Info Text="Choisissez les détails du client qui sont imprimés sur le reçu"/>
+          <Name Text="Nom"/>
+          <Code Text="Code"/>
+          <TaxNumber Text="Numéro fiscal"/>
+          <Address Text="Adresse"/>
+          <PhoneNumber Text="Numéro de téléphone"/>
+          <Email Text="E-mail"/>
+        </CustomerDetails>
+        <Address Text="Format d'adresse">
+          <Info Text="Spécifiez comment les lignes d'adresse sont imprimées dans les reçus et les factures"/>
+          <Preview Text="Aperçu"/>
+        </Address>
+      </Customize>
+    </Receipt>
+    <DailyReport>
+      <ZReport Text="RAPPORT Z"/>
+      <XReport Text="RAPPORT X"/>
+      <CashRegister Text="N° de point de vente :"/>
+      <Date Text="Date:"/>
+      <Time Text="Temps:"/>
+      <ReportNumber Text="Rapport #:"/>
+      <FromDocument Text="À partir du document :"/>
+      <ToDocument Text="Pour documenter :"/>
+      <CashIn Text="Encaisser :"/>
+      <CashOut Text="Encaissement :"/>
+      <UserSales Text="Ventes aux utilisateurs :"/>
+      <PaymentTypes Text="Types d'appels d'offres :">
+        <Reconciled Text="Réconcilié"/>
+        <Total Text="Total offert :"/>
+      </PaymentTypes>
+      <Refunds Text="Retours :">
+        <Total Text="Rendements totaux :"/>
+      </Refunds>
+      <TaxCollected Text="Taxe collectée :"/>
+      <TaxableTotal Text="Total imposable :"/>
+      <Tax Text="Impôt:"/>
+      <Total Text="Total:"/>
+      <TotalBalance Text="Solde total :"/>
+      <Items Text="RAPPORT SUR LES ARTICLES">
+        <ReportNumber Text="Rapport #:"/>
+        <Products Text="PRODUITS"/>
+        <Groups Text="GROUPES DE PRODUITS"/>
+        <Count Text="Nombre d'articles"/>
+      </Items>
+      <DiscountsGranted Text="Remises accordées :"/>
+      <CreditPayments Text="Paiements de crédit encaissés :"/>
+      <TotalPaymentReceived Text="Paiement total reçu :"/>
+      <TotalRounding Text="Arrondi total :"/>
+    </DailyReport>
+    <CashDrawer Text="Tiroir-caisse">
+      <OpenCashDrawer Text="Tiroir-caisse ouvert">
+        <AuthorizationRequired Text="L'ouverture du tiroir-caisse nécessite une autorisation.\nVeuillez saisir le mot de passe requis pour ouvrir le tiroir-caisse."/>
+      </OpenCashDrawer>
+      <Command Text="Commande du tiroir-caisse">
+        <LearnMore Text="Qu'est-ce que c'est ça?"/>
+      </Command>
+      <Error>
+        <CommandNotSet Text="Commande du tiroir-caisse non définie.\nVeuillez définir la commande du tiroir-caisse pour continuer."/>
+        <PrinterNotSet Text="L'imprimante de reçus n'est pas configurée.\nVeuillez configurer l'imprimante de reçus pour continuer."/>
+      </Error>
+      <Test Text="Tiroir d'essai">
+        <InvalidCommand Text="Veuillez saisir une commande de tiroir-caisse valide pour tester."/>
+      </Test>
+    </CashDrawer>
+  </ReceiptPrinter>
+  <FiscalPrinter>
+    <Check Text="Chargement de l'imprimante de reçus...">
+      <Status Text="Vérification de l'état de l'imprimante..."/>
+    </Check>
+    <CloseFiscalDay Text="Imprimer les rapports de clôture">
+      <Info Text="Veuillez sélectionner les rapports à imprimer. Assurez-vous que votre imprimante est disponible et opérationnelle."/>
+      <DailyReport Text="Imprimer le rapport Z">
+        <InProgress Text="Impression du rapport Z... Veuillez patienter..."/>
+      </DailyReport>
+      <SubReport Text="Imprimer le rapport X">
+        <InProgress Text="Impression du rapport X... Veuillez patienter..."/>
+      </SubReport>
+      <ItemsReport Text="Imprimer le rapport des articles">
+        <InProgress Text="Impression du rapport sur les éléments... Veuillez patienter..."/>
+      </ItemsReport>
+      <PrinterDisabled Text="L'imprimante est désactivée ou n'est pas sélectionnée. Les rapports ne peuvent pas être imprimés."/>
+    </CloseFiscalDay>
+  </FiscalPrinter>
+</Language>

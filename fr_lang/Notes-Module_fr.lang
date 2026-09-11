@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language code="fr" name="Anglais">
+  <Notes Text="Remarques">
+    <Add Text="Ajouter des notes"/>
+    <Document>
+      <Number Text="Numéro du document :"/>
+      <Customer Text="Client:"/>
+      <Total Text="Total:"/>
+    </Document>
+    <Note Text="Note publique">
+      <Description Text="Insérer une note publique"/>
+    </Note>
+    <InternalNote Text="Note interne">
+      <Description Text="Insérer une note interne"/>
+    </InternalNote>
+    <Saved Text="Notes enregistrées avec succès"/>
+  </Notes>
+</Language>

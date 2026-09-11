@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language code="fr" name="Anglais">
+  <FloorPlans>
+    <Options>
+      <View>
+        <Orders>
+          <Order>
+            <Number Text="Commande / Nom du client"/>
+          </Order>
+        </Orders>
+      </View>
+    </Options>
+  </FloorPlans>
+  <Order>
+    <Name Text="Nom de la commande">
+      <Title Text="Nom de la commande ou du client"/>
+      <Info Text="Entrez le nom ou le numéro de la commande"/>
+      <Validation>
+        <Duplicate Text="Une commande du même nom existe déjà. Veuillez saisir un nom différent pour continuer."/>
+        <Empty Text="Le nom ou le numéro de la commande ne peut pas être vide pour les commandes existantes."/>
+        <Required Text="Le nom ou le numéro de la commande ne peut pas être vide."/>
+        <Legth Text="Le nom de la commande est trop long. La longueur maximale est de {0}"/>
+      </Validation>
+      <Settings>
+        <Enabled Text="Activer le nom de commande personnalisé"/>
+        <Required Text="Nom de la commande requis"/>
+        <RequestOrderName Text="Demander automatiquement le nom de la commande"/>
+      </Settings>
+    </Name>
+  </Order>
+</Language>

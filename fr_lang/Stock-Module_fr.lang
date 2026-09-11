@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Language code="fr" name="Anglais">
+  <Stock Text="Action">
+    <Items>
+      <Item>
+        <Product>
+          <Id Text="Identifiant"/>
+          <Code Text="Code"/>
+          <Name Text="Nom"/>
+          <MeasurementUnit Text="Unité de mesure"/>
+          <CostPrice Text="Prix ​​de revient"/>
+        </Product>
+        <Quantity Text="Quantité"/>
+        <NegativeQuantity Text="Quantité de stock négative"/>
+        <TotalCostBeforeTax Text="Coût"/>
+        <TotalCost Text="Coût inclus impôt"/>
+        <TotalBeforeTax Text="Valeur"/>
+        <TotalAfterTax Text="Valeur TTC impôt"/>
+      </Item>
+      <Filter>
+        <NegativeQuantity Text="Quantité négative">
+          <Info Text="Afficher uniquement les produits avec une quantité négative"/>
+        </NegativeQuantity>
+        <NonZeroQuantity Text="Quantité non nulle">
+          <Info Text="Afficher uniquement les produits avec une quantité non nulle"/>
+        </NonZeroQuantity>
+        <ZeroQuantity Text="Quantité nulle">
+          <Info Text="Afficher uniquement les produits avec une quantité nulle"/>
+        </ZeroQuantity>
+        <ActiveProducts Text="Produits actifs">
+          <Info Text="Afficher uniquement les produits actifs"/>
+        </ActiveProducts>
+      </Filter>
+      <Summary>
+        <NegativeCount Text="Total des articles avec une quantité négative en stock"/>
+        <ZeroCount Text="Total d'articles avec une quantité nulle en stock"/>
+        <PositiveCount Text="Total des articles avec une quantité positive en stock"/>
+        <TotalBeforeTax Text="Total:"/>
+        <TotalIncludingTax Text="Total TTC. impôt:"/>
+        <SellPrice Text="Prix de vente"/>
+        <CostPrice Text="Prix de revient">
+          <TotalCostBeforeTax Text="Coût total:"/>
+          <TotalCostAfterTax Text="Coût total TTC impôt:"/>
+        </CostPrice>
+      </Summary>
+    </Items>
+    <Reset Text="Recalculer les quantités de stock">
+      <Completed Text="Calcul du stock terminé avec succès."/>
+    </Reset>
+    <History Text="Historique des stocks">
+      <Start Text="Commencer"/>
+      <End Text="Fin"/>
+      <Document Text="Document">
+        <DocumentType Text="Type de document"/>
+        <Customer Text="Client"/>
+        <Date Text="Date"/>
+        <StockDate Text="Date d'inventaire"/>
+      </Document>
+      <ChangeQuantity Text="Quantité"/>
+      <InStock Text="En stock"/>
+      <MeasurementUnit Text="Unité de mesure"/>
+      <CostPrice Text="Prix ​​de revient"/>
+      <Fix Text="Réparer">
+        <ExpectedQuantity Text="Corriger la quantité attendue"/>
+        <Success Text="Les quantités dans l'inventaire {0} ont été mises à jour avec succès."/>
+      </Fix>
+    </History>
+    <Print>
+      <Report Text="Rapport d'inventaire"/>
+    </Print>
+    <ProductDetails>
+      <OnHand Text="Quantité disponible"/>
+    </ProductDetails>
+    <Control>
+      <Settings>
+        <PreventNegativeQuantities Text="Prévenir les stocks négatifs"/>
+      </Settings>
+      <NegativeQuantity Text="Vente à quantité de stock nulle">
+        <Confirmation Text="Vous ne disposez pas de quantité suffisante pour vendre cet article. La vente de cet article peut entraîner une quantité négative en stock.\n\n Quantité disponible : {0}\nQuantité requise : {1}\n\n Etes-vous sûr de vouloir ajouter cet article à la vente en cours ?"/>
+        <Title Text="Quantité en stock manquante"/>
+        <PermissionDenied Text="Vous ne disposez pas de suffisamment de privilèges pour vendre des articles en quantité nulle. Veuillez consulter l'administrateur."/>
+        <Authorization>
+          <Title Text="Le contrôle des stocks est activé.\nVeuillez fournir un mot de passe pour vendre un article en quantité nulle pour continuer"/>
+        </Authorization>
+        <AllowMultiple>
+          <NotAllowed Text="La répétition du tour n'est pas autorisée lorsque le contrôle des stocks est activé."/>
+        </AllowMultiple>
+        <Security>
+          <Description Text="Contrôle si un utilisateur peut vendre des articles avec une quantité négative"/>
+        </Security>
+      </NegativeQuantity>
+    </Control>
+    <QuickInventory Text="Inventaire rapide">
+      <Description Text="Modifier les quantités en stock pour l'article sélectionné"/>
+      <Title Text="Mettre à jour la quantité en stock"/>
+      <Subtitle Text="Définir les quantités de stock pour le produit sélectionné.\nLe document d'inventaire sera créé automatiquement."/>
+      <Success Text="La quantité en stock a été modifiée avec succès.\nDocument {0} créé."/>
+      <Unauthorized Text="Vous n'êtes pas autorisé à utiliser l'inventaire rapide."/>
+      <NoChange Text="La quantité souhaitée est déjà égale à la quantité du produit actuel. Actualisez les quantités en stock et réessayez."/>
+    </QuickInventory>
+    <LearnMore Text="En savoir plus sur le stock et l'inventaire"/>
+    <SearchResults Text="Résultat de la recherche"/>
+    <ShowCostPrices Text="Consulter les prix de revient">
+      <Description Text="Contrôle si les prix de revient sont affichés dans la vue des stocks."/>
+    </ShowCostPrices>
+  </Stock>
+</Language>
